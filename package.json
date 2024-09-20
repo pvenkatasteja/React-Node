@@ -1,0 +1,23 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvenkatasteja/React-Node.git"
+  },
+  "keywords": [
+    "react",
+    "node"
+  ],
+  "author": "myself",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pvenkatasteja/React-Node/issues"
+  },
+  "homepage": "https://github.com/pvenkatasteja/React-Node#readme"
+}
