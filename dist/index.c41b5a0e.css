@@ -1,0 +1,137 @@
+.ZgkXGq_headerContainer {
+  color: #fff;
+  background-color: #2a2a2a;
+  align-items: center;
+  height: 75px;
+  display: flex;
+  position: relative;
+}
+
+.ZgkXGq_logo {
+  width: 200px;
+  margin-left: 50px;
+  font-family: Righteous, cursive;
+  font-size: 26px;
+}
+
+.ZgkXGq_nav {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  justify-content: space-evenly;
+  width: 400px;
+  font-weight: bold;
+  display: flex;
+}
+
+.ZgkXGq_navItem {
+  cursor: pointer;
+  border-bottom: 2px solid #0000;
+  margin-top: 9px;
+  padding-bottom: 7px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a.ZgkXGq_active {
+  color: orange;
+}
+
+.ZgkXGq_navItem:hover {
+  border-bottom: 2px solid #ff0;
+}
+
+.ZgkXGq_navItem:hover a {
+  color: #ff0;
+}
+
+.ZgkXGq_cart {
+  cursor: pointer;
+  width: 70px;
+  position: absolute;
+  top: 20px;
+  right: 150px;
+}
+
+.ZgkXGq_cart a {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.ZgkXGq_count {
+  color: #fff;
+  background-color: red;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  font-size: 11px;
+  display: flex;
+  position: absolute;
+  top: -3px;
+  left: 18px;
+}
+
+.ZgkXGq_cart img {
+  width: 35px;
+}
+
+.ZgkXGq_login {
+  cursor: pointer;
+  position: absolute;
+  top: 28px;
+  right: 50px;
+}
+
+.ZgkXGq_user {
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 18px;
+  right: 50px;
+}
+
+.ZgkXGq_user img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.ZgkXGq_menuContainer {
+  position: relative;
+}
+
+.ZgkXGq_menu {
+  z-index: 9;
+  background: #000;
+  border-radius: 5px;
+  width: 120px;
+  height: 100px;
+  padding: 5px;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.ZgkXGq_menuItem {
+  padding: 10px 10px 0;
+}
+
+.ZgkXGq_menuItem:hover {
+  color: #ff0;
+}
+
+.ZgkXGq_user:hover .ZgkXGq_menuContainer .ZgkXGq_menu {
+  display: block;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
