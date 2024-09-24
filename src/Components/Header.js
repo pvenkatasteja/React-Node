@@ -12,7 +12,7 @@ export default function Header() {
     </div>
     <div className={headerStyles.cart}>
         <img src={cartImg} alt="" />
-        <span>Cart</span>
+        <span>Cart</span>   
     </div>
     <div className={headerStyles.login}>Login</div>
 
