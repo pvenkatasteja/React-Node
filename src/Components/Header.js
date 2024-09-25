@@ -4,6 +4,7 @@ import cartImg from "../Components/Images/Cart.png"
 
 export default function Header() {
   return (
+    <>
     <div className={headerStyles.headerContainer}>
     <div className={headerStyles.logo}>FreshKart</div>
     <div className={headerStyles.nav}>
@@ -17,5 +18,6 @@ export default function Header() {
     <div className={headerStyles.login}>Login</div>
 
     </div>
+    </>
   )
 }
